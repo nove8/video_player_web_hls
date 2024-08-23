@@ -19,7 +19,11 @@ dependencies:
   flutter_web_plugins:
     sdk: flutter
   http: ^1.0.0
-  video_player_platform_interface: ^6.2.0
+  video_player_platform_interface:
+    git:
+      url: https://github.com/nove8/packages.git
+      path: packages/video_player/video_player_platform_interface
+      ref: video_player-v2.8.1-nove8
   web: ">=1.0.0 <2.0.0"
 dev_dependencies:
   flutter_test:
