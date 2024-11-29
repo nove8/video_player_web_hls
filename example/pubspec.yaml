@@ -25,7 +25,11 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  video_player: ^2.8.3
+  video_player:
+    git:
+      url: https://github.com/nove8/packages.git
+      path: packages/video_player/video_player
+      ref: video_player-v2.8.6-nove8
   video_player_web_hls:
     path: ../
 
